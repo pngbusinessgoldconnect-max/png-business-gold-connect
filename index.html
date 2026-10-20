@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="PNG Business & Gold Connect connects Papua New Guinean businesses, business-service customers, and gold buyers and sellers.">
+<title>PNG Business & Gold Connect | Ivan Bandi</title>
+<style>
+:root{--navy:#062b59;--blue:#0756a2;--gold:#ffc629;--gold2:#f0ad00;--ink:#10243c;--pale:#f3f7fc;--white:#fff;--muted:#5e6e82;--line:#d9e4f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+a{color:inherit}button,input,select,textarea{font:inherit}.wrap{width:min(1160px,92%);margin:auto}
+.top{background:var(--navy);color:white;padding:18px 0;border-bottom:3px solid var(--gold)}
+.brandrow{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.mark{width:58px;height:58px;border:2px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:28px;font-weight:bold}
+.brand h1{font-size:clamp(19px,3vw,29px);line-height:1.05;margin:0;color:white;letter-spacing:.3px}.brand h1 span{display:block;color:var(--gold);font-size:.72em;margin-top:5px}
+.tagline{max-width:280px;font-style:italic;color:#e5eefb}.contacts{font-size:14px;display:grid;gap:4px}.contacts a{text-decoration:none;color:white}
+nav{background:#082f61;color:white}.navrow{display:flex;align-items:center;gap:4px;flex-wrap:wrap}.navrow a{padding:13px 15px;text-decoration:none;font-weight:bold;font-size:14px;border-radius:0 0 5px 5px}.navrow a:hover,.navrow a.active{background:var(--gold);color:var(--navy)}
+.hero{background:linear-gradient(115deg,rgba(3,29,61,.96),rgba(4,61,112,.84)),radial-gradient(ellipse at 80% 10%,#287ab7,#062b59);color:white;padding:64px 0 60px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:30px;align-items:center}.eyebrow{color:#7ee6ff;text-transform:uppercase;font-weight:bold;letter-spacing:2px;font-size:13px}.hero h2{font-size:clamp(34px,5.5vw,62px);line-height:1.02;margin:12px 0 18px}.hero h2 span{color:var(--gold)}.hero p{font-size:18px;max-width:650px;color:#e5effa}.hero-art{border:1px solid rgba(255,255,255,.22);border-radius:22px;padding:28px;background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.03));text-align:center;box-shadow:0 20px 55px #00152c66}.hero-art .big{font-size:76px;line-height:1.1}.hero-art strong{display:block;color:var(--gold);font-size:22px}.hero-art p{font-size:14px;margin-bottom:0}
+.btn{display:inline-block;border:0;border-radius:999px;background:var(--gold);color:var(--navy);padding:12px 21px;text-decoration:none;font-weight:bold;cursor:pointer;margin:5px 8px 0 0}.btn.secondary{background:transparent;color:white;border:1px solid white}.btn:hover{filter:brightness(.96);transform:translateY(-1px)}
+section{padding:48px 0}.section-head{text-align:center;margin-bottom:27px}.section-head h2{font-size:clamp(25px,4vw,36px);margin:0 0 7px;color:var(--navy)}.section-head p{margin:0;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{border:1px solid var(--line);border-radius:14px;padding:23px;background:white;box-shadow:0 7px 24px #082b5010}.card .icon{font-size:33px}.card h3{margin:9px 0;color:var(--navy)}.card p{color:var(--muted);font-size:15px}.card a{color:#0756a2;font-weight:bold;text-decoration:none}
+.soft{background:var(--pale)}.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}.panel{background:white;border:1px solid var(--line);border-radius:15px;padding:24px}.panel h3{margin-top:0;color:var(--navy)}.listing{border-top:1px solid var(--line);padding:14px 0}.listing:first-of-type{border-top:0}.badge{display:inline-block;border-radius:99px;padding:3px 9px;background:#fff2c5;color:#6c4a00;font-size:12px;font-weight:bold}.notice{border-left:4px solid var(--gold2);background:#fff8df;padding:14px 17px;border-radius:6px;font-size:14px}
+form{display:grid;gap:13px}label{font-size:14px;font-weight:bold;color:var(--navy)}input,select,textarea{width:100%;border:1px solid #cbd8e6;border-radius:8px;padding:12px;background:white;color:var(--ink)}textarea{min-height:105px;resize:vertical}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.formnote{font-size:13px;color:var(--muted)}
+.contactband{background:linear-gradient(110deg,var(--navy),#0756a2);color:white;padding:34px;border-radius:17px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.contactband h2{margin:0 0 6px}.contactband p{margin:0;color:#e4eef8}
+footer{background:#041d3c;color:white;padding:30px 0;margin-top:20px}.footrow{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}.footrow p{margin:4px 0;color:#d7e3f1;font-size:14px}.footrow a{color:var(--gold)}.copyright{border-top:1px solid #ffffff30;margin-top:22px;padding-top:15px;font-size:12px;color:#c7d5e7}
+.hidden{display:none!important}
+@media(max-width:780px){.hero-grid,.two{grid-template-columns:1fr}.hero{padding:44px 0}.hero-art{display:none}.cards{grid-template-columns:1fr 1fr}.contacts{width:100%}.navrow a{padding:11px 10px;font-size:13px}}
+@media(max-width:520px){.cards,.formgrid{grid-template-columns:1fr}.brandrow{align-items:flex-start}.tagline{max-width:none}.navrow{display:grid;grid-template-columns:1fr 1fr}.navrow a{text-align:center}.hero h2{font-size:37px}.contactband{padding:24px}}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="wrap brandrow">
+  <a class="brand" href="#home" aria-label="PNG Business and Gold Connect home"><div class="mark">✦</div><h1>PNG BUSINESS &amp; GOLD<span>CONNECT</span></h1></a>
+  <div class="tagline">Connecting Businesses, Gold Buyers and Sellers Across PNG.</div>
+  <div class="contacts"><a href="mailto:ivannihandibandi@gmail.com">✉ ivannihandibandi@gmail.com</a><a href="https://wa.me/67570640712" target="_blank" rel="noopener">◉ +675 70640712</a></div>
+ </div>
+</header>
+<nav><div class="wrap navrow">
+ <a class="active" href="#home">Home</a><a href="#services">Business Services</a><a href="#gold">Gold Marketplace</a><a href="#advertise">Advertise</a><a href="#about">About Us</a><a href="#contact">Contact</a>
+</div></nav>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+ <div><div class="eyebrow">Business opportunities across Papua New Guinea</div><h2>WELCOME TO<br><span>PNG BUSINESS &amp; GOLD</span><br>CONNECT</h2><p>Your starting point for business support, business listings, and connections between gold buyers and sellers across PNG.</p><a class="btn" href="#services">Explore Services →</a><a class="btn secondary" href="#advertise">Submit a Listing</a></div>
+ <div class="hero-art"><div class="big">🇵🇬 ✦ 🪙</div><strong>Local connections. New opportunities.</strong><p>Discover services, find business contacts, and grow your network.</p></div>
+</div></section>
+<section id="services"><div class="wrap"><div class="section-head"><h2>Business Services</h2><p>Practical support for entrepreneurs, job seekers and small businesses.</p></div>
+<div class="cards">
+ <article class="card"><div class="icon">🏢</div><h3>Registration Assistance</h3><p>Guidance and document preparation for business registration, TIN and IRC processes. Official approvals and fees remain with the relevant authorities.</p><a href="#contact">Enquire →</a></article>
+ <article class="card"><div class="icon">📄</div><h3>Business Documents</h3><p>Company profiles, business proposals, letters, CVs and application letters prepared to suit your needs.</p><a href="#contact">Request a service →</a></article>
+ <article class="card"><div class="icon">🎨</div><h3>Logo &amp; Flyer Design</h3><p>Promotional materials and simple branding to help your business look professional.</p><a href="#contact">Get a quote →</a></article>
+</div></div></section>
+<section class="soft" id="gold"><div class="wrap"><div class="section-head"><h2>Gold Marketplace</h2><p>Browse directory listings or submit an enquiry to connect with potential buyers and sellers.</p></div>
+<div class="two">
+ <div class="panel"><h3>🪙 Gold Buyers Directory</h3><p>Buyer listings will be added as details are submitted and checked. No buyers are currently independently verified on this starter website.</p><div id="buyerListings"><div class="listing"><strong>Buyer listings coming soon</strong><p>Businesses can submit their details using the listing form below.</p></div></div><a class="btn" href="#advertise">List a Buyer Business</a></div>
+ <div class="panel"><h3>💰 Gold Sellers Directory</h3><p>Gold sellers can submit a listing request with their location and contact details.</p><div id="sellerListings"><div class="listing"><strong>Seller listings coming soon</strong><p>Listings are reviewed before being published.</p></div></div><a class="btn" href="#advertise">Submit Seller Listing</a></div>
+</div>
+<div class="notice" style="margin-top:20px"><strong>Safety notice:</strong> This website is a contact directory, not a gold dealer or escrow service. It does not verify purity, set guaranteed buying prices, handle gold or hold payments. Users must independently confirm identity, licences and legal requirements before any transaction. Do not submit identity documents, bank details or sensitive information through this public form.</div>
+</div></section>
+<section id="advertise"><div class="wrap"><div class="section-head"><h2>Advertise Your Business / Submit a Listing</h2><p>Complete the form. It will open a WhatsApp message to Ivan for review.</p></div>
+<div class="two"><div class="panel"><form id="listingForm">
+ <div class="formgrid"><div><label for="name">Your name *</label><input id="name" required maxlength="100" placeholder="Full name"></div><div><label for="business">Business name *</label><input id="business" required maxlength="120" placeholder="Business or trading name"></div></div>
+ <div class="formgrid"><div><label for="type">Listing type *</label><select id="type" required><option value="">Choose one</option><option>Business service</option><option>Gold buyer</option><option>Gold seller</option><option>Business advertisement</option></select></div><div><label for="location">Province / town *</label><input id="location" required maxlength="100" placeholder="e.g. Wewak, East Sepik"></div></div>
+ <div class="formgrid"><div><label for="phone">Public contact number</label><input id="phone" maxlength="40" placeholder="+675 ..."></div><div><label for="email">Email (optional)</label><input id="email" type="email" maxlength="120" placeholder="you@example.com"></div></div>
+ <div><label for="description">Describe your service or listing *</label><textarea id="description" required maxlength="1000" placeholder="Brief description. Do not include confidential or sensitive information."></textarea></div>
+ <button class="btn" type="submit">Send Listing Request via WhatsApp →</button><p class="formnote">Your request is not published automatically. Ivan will review it before any listing is displayed. WhatsApp must be installed or available in your browser.</p>
+ </form></div>
+ <div class="panel"><h3>How it works</h3><div class="listing"><strong>1. Submit your details</strong><p>Tell us what service or listing you want to advertise.</p></div><div class="listing"><strong>2. Review</strong><p>We may contact you to confirm details and any relevant business credentials.</p></div><div class="listing"><strong>3. Connect</strong><p>If accepted, your listing can help customers contact you directly.</p></div><div class="notice">Never pay a stranger in advance based only on an online listing. Meet safely and check all relevant credentials independently.</div></div>
+</div></div></section>
+<section id="about" class="soft"><div class="wrap"><div class="section-head"><h2>About PNG Business &amp; Gold Connect</h2><p>A developing platform founded by Ivan Bandi.</p></div><div class="panel"><p>PNG Business &amp; Gold Connect aims to make it easier for people in Papua New Guinea to discover business support services and find contact information for businesses and gold-market participants. We are starting with a simple directory and enquiry service, with more features planned as the platform grows.</p><p><strong>Transparency:</strong> Listings are not endorsements. Users should check businesses, licences, pricing and legal requirements independently. The website does not guarantee a transaction or investment return.</p></div></div></section>
+<section id="contact"><div class="wrap"><div class="contactband"><div><h2>Contact Ivan Bandi</h2><p>Questions about services, advertising or submitting a listing?</p><p><strong>Email:</strong> ivannihandibandi@gmail.com<br><strong>WhatsApp:</strong> +675 70640712</p></div><div><a class="btn" href="https://wa.me/67570640712?text=Hello%20Ivan%2C%20I%20am%20contacting%20you%20through%20PNG%20Business%20%26%20Gold%20Connect." target="_blank" rel="noopener">Message on WhatsApp</a><a class="btn secondary" href="mailto:ivannihandibandi@gmail.com">Send Email</a></div></div></div></section>
+</main>
+<footer><div class="wrap"><div class="footrow"><div><strong>PNG BUSINESS &amp; GOLD CONNECT</strong><p>Connecting Businesses, Gold Buyers and Sellers Across PNG.</p></div><div><strong>Quick links</strong><p><a href="#services">Business Services</a></p><p><a href="#gold">Gold Marketplace</a></p><p><a href="#advertise">Submit a Listing</a></p></div><div><strong>Contact</strong><p>ivannihandibandi@gmail.com</p><p>+675 70640712</p><p>Papua New Guinea</p></div></div><div class="copyright">© <span id="year"></span> PNG Business &amp; Gold Connect. Founded by Ivan Bandi. All rights reserved. | Listings and prices are subject to verification and change.</div></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('listingForm').addEventListener('submit', function(e){
+ e.preventDefault();
+ const get = id => document.getElementById(id).value.trim();
+ const msg = `Hello Ivan, I would like to submit a listing on PNG Business & Gold Connect.%0A%0AName: ${encodeURIComponent(get('name'))}%0ABusiness: ${encodeURIComponent(get('business'))}%0AListing type: ${encodeURIComponent(get('type'))}%0ALocation: ${encodeURIComponent(get('location'))}%0APublic phone: ${encodeURIComponent(get('phone') || 'Not provided')}%0AEmail: ${encodeURIComponent(get('email') || 'Not provided')}%0ADescription: ${encodeURIComponent(get('description'))}%0A%0AI understand the listing is reviewed before publication.`;
+ window.open('https://wa.me/67570640712?text=' + msg, '_blank', 'noopener');
+});
+</script>
+</body></html>
